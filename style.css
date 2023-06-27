@@ -12,10 +12,22 @@
     --tbl_checkgreen: #6fc6b2;
     --tbl_crossred: #eb5a54;
     --tbl_azure: #45abe9;
+    --tbl_btngrey: #c5cbd0;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+.btn_add {
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: small;
+    font-weight: lighter;
+    margin-right: 0.5rem;
+    border: none;
 }
 
 .check {
@@ -68,7 +80,7 @@ body {
     font-weight: bolder;
 }
 
-/* LIST SECTIONS */
+/* MAIN CONTAINERS */
 
 main {
     background-color: var(--tbl_lgray);
@@ -81,13 +93,28 @@ main {
     background-color: var(--tbl_white);
     border-radius: 10px;
     padding-bottom: 3rem;
-
 }
 
+/* NAVBAR MENU */
 nav {
     border-bottom: 2px solid var(--tbl_lgray);
     padding: 0.5rem 3rem;
 }
+
+
+.btn_task {
+    background-color: #45abe9;
+    color: var(--tbl_white);
+}
+
+.btn_section {
+    color: var(--tbl_btngrey);
+    border: 2px solid var(--tbl_btngrey);
+    background-color: var(--tbl_white);
+
+}
+
+/* LIST SECTIONS */
 
 .lst_sec {
     padding: 0 3rem;
