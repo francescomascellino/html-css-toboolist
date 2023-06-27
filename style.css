@@ -1,5 +1,54 @@
+/* GENERAL RULES */
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+:root {
+    --tbl_lgray: #f6f8f9;
+    --tbl_white: white;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/* HEADER AND LOGO */
+
+.logo {
+    padding: 0.5rem;
+}
+
+.logo img {
+    vertical-align: middle;
+}
+
+.logo span {
+    font-size: 2.5rem;
+    vertical-align: middle;
+    font-weight: bolder;
+}
+
+/* LIST SECTIONS */
+
+main {
+    background-color: var(--tbl_lgray);
+}
+
+.list_container {
+    width: 80%;
+    margin: auto;
+    background-color: var(--tbl_white);
+
+}
+
+nav {
+    border-bottom: 2px solid var(--tbl_lgray);
+    padding: 0.5rem 3rem;
+}
+
+.lst_sec {
+    padding: 3rem;
 }
