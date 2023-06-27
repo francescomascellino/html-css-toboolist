@@ -11,8 +11,14 @@
     --tbl_white: white;
     --tbl_checkgreen: #6fc6b2;
     --tbl_crossred: #eb5a54;
-    --tbl_azure: #45abe9;
+    --tbl_azure: #47adf1;
+    --tbl_editorial: #45abe9;
     --tbl_btngrey: #c5cbd0;
+    --tbl_goals: #9c72e4;
+    --tbl_recruit: #64c0a9;
+    --tbl_mobile: #f29e33;
+    --tbl_website: #d863a0;
+    --tbl_sales: #b0c926;
 }
 
 body {
@@ -60,8 +66,30 @@ body {
     color: var(--tbl_white);
 }
 
+/* LABEL BG COLORS */
+
 .editorial {
-    background-color: var(--tbl_azure);
+    background-color: var(--tbl_editorial);
+}
+
+.goals {
+    background-color: var(--tbl_goals);
+}
+
+.recruit {
+    background-color: var(--tbl_recruit);
+}
+
+.mobile {
+    background-color: var(--tbl_mobile);
+}
+
+.website {
+    background-color: var(--tbl_website);
+}
+
+.sales {
+    background-color: var(--tbl_sales);
 }
 
 /* HEADER AND LOGO */
@@ -103,7 +131,7 @@ nav {
 
 
 .btn_task {
-    background-color: #45abe9;
+    background-color: var(--tbl_azure);
     color: var(--tbl_white);
 }
 
