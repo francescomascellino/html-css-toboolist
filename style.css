@@ -1,4 +1,4 @@
-/* GENERAL RULES */
+/* #region GENERAL RULES */
 
 * {
     box-sizing: border-box;
@@ -66,7 +66,9 @@ body {
     color: var(--tbl_white);
 }
 
-/* LABEL BG COLORS */
+/* #endregion GENERAL RULES */
+
+/* #region LABEL BG COLORS */
 
 .editorial {
     background-color: var(--tbl_editorial);
@@ -92,7 +94,9 @@ body {
     background-color: var(--tbl_sales);
 }
 
-/* HEADER AND LOGO */
+/* #endregion  LABEL AND BG COLORS*/
+
+/* #region HEADER AND LOGO */
 
 .logo {
     padding: 0.5rem;
@@ -108,7 +112,9 @@ body {
     font-weight: 900;
 }
 
-/* MAIN CONTAINERS */
+/* #endregion HEADER AND LOGO */
+
+/* #region MAIN CONTAINERS */
 
 main {
     background-color: var(--tbl_lgray);
@@ -124,12 +130,13 @@ main {
     padding-bottom: 3rem;
 }
 
-/* NAVBAR MENU */
+/* #endregion MAIN CONTAINERS */
+
+/* #region NAVBAR MENU */
 nav {
     border-bottom: 2px solid var(--tbl_lgray);
     padding: 0.5rem 3rem;
 }
-
 
 .btn_task {
     background-color: var(--tbl_azure);
@@ -143,7 +150,9 @@ nav {
 
 }
 
-/* LIST SECTIONS */
+/* #endregion NAVBAR MENU */
+
+/* #region LIST SECTIONS */
 
 .lst_sec {
     padding: 0 3rem;
@@ -160,3 +169,5 @@ nav {
     font-size: 1rem;
     margin-bottom: 1rem;
 }
+
+/* #endregion LIST SECTIONS */
