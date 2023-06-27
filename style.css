@@ -22,12 +22,12 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Mulish', sans-serif;
 }
 
 .btn_add {
     display: inline-block;
-    border-radius: 10px;
+    border-radius: 5px;
     text-align: center;
     padding: 0.5rem;
     font-size: small;
@@ -58,7 +58,7 @@ body {
 
 .label {
     display: inline-block;
-    border-radius: 15px;
+    border-radius: 14px;
     text-align: center;
     padding: 0.5rem;
     font-size: small;
@@ -105,7 +105,7 @@ body {
 .logo span {
     font-size: 2.5rem;
     vertical-align: middle;
-    font-weight: bolder;
+    font-weight: 900;
 }
 
 /* MAIN CONTAINERS */
@@ -113,6 +113,7 @@ body {
 main {
     background-color: var(--tbl_lgray);
     padding: 3rem 0 1rem;
+    min-height: 100vh;
 }
 
 .list_container {
@@ -149,6 +150,7 @@ nav {
 }
 
 .lst_sec_title {
+    font-weight: 900;
     margin-bottom: 1rem;
     margin-top: 3rem;
 }
